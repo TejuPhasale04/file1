@@ -1,0 +1,19 @@
+import java.awt.*;
+class Frame1 extends Frame
+{
+	Frame1()
+	{
+		setLayout(null);
+		Panel p1=new Panel();
+		p1.setBounds(40,80,200,200);
+		p1.setBackground(Color.red);
+		add(p1);
+	}
+	public static void main(String args[])
+	{
+		Frame1 f1=new Frame1();
+		f1.setTitle("Frame");
+		f1.setSize(500,500);
+		f1.setVisible(true);
+	}
+}
